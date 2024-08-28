@@ -1,0 +1,15 @@
+---
+# The main Sass file needs front matter.
+# This files override minima main scss file.
+---
+
+@import "minima";
+
+.myhome {
+    section {
+        h2 {
+            font-size: 24pt;
+        }
+    }
+}
+
