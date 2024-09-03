@@ -5,11 +5,26 @@
 
 @import "minima";
 
+.text-align-right {
+    text-align: right !important;
+}
+
 .myhome {
+    h2 {
+        font-size: 24pt;
+    }
+    h3, .h3 {
+        font-size: 16pt;
+        
+    }
+    img#profile-img {
+        border-radius: 50%;
+    }
     section {
-        h2 {
-            font-size: 24pt;
-        }
+        margin: 40px 0px;
+    }
+    p {
+        text-align: justify;
     }
 }
 
